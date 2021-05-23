@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        .main {
+            margin: 70px 170px;
+            box-shadow: 2px 2px 2px rgb(221, 221, 221);
+        }
+        
+        .card {
+            display: flex;
+        }
+        
+        .section {
+            width: 100%;
+        }
+        
+        .loginImage {
+            width: 100%;
+            height: 100%;
+        }
+        
+        .logo {
+            width: 100%;
+            height: 100%;
+        }
+        
+        .subsection {
+            padding: 40px 60px;
+        }
+        
+        .description {
+            font-size: 25px;
+            margin-bottom: 25px;
+        }
+        
+        .formControl {
+            width: 100%;
+            border: 1px solid #d5dae2;
+            margin-bottom: 20px;
+            min-height: 45px;
+        }
+        
+        .formControl:focus {
+            border-color: #80bdff;
+            outline: 0;
+            box-shadow: 0 0 0 0.2rem rgb(0 123 255/25%);
+            color: #495057;
+        }
+        
+        .loginButton {
+            background-color: #66bb6a;
+            border-radius: 4px;
+            font-size: 17px;
+            font-weight: bold;
+            color: #fff;
+            margin-bottom: 25px;
+            width: 100%;
+            border: 1px solid transparent;
+            padding: 13px 20px 12px;
+        }
+        
+        .link {
+            cursor: pointer;
+            color: #5a88b7;
+            margin-bottom: 12px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        
+        .link:hover {
+            color: #0056b3;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="card">
+            <div class="section">
+                <img src="assets/login.jpg" alt="Login Image" class="loginImage">
+            </div>
+            <div class="section">
+                <div class="subsection">
+                    <div>
+                        <img src="assets/logo.png" alt="Logo Image" class="logo">
+                    </div>
+                    <h3 class="heading">Sign in to your account</h3>
+                    <form>
+                        <input type="text" placeholder="Username" class="formControl" />
+                        <input type="password" placeholder="Password" class="formControl" />
+                        <input type="button" value="Submit" class="loginButton" />
+                    </form>
+                    <a class="link">Forgot Password?</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
